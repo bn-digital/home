@@ -2,11 +2,12 @@ name: Chocolatey
 on:
   push:
     paths:
+      - '.github/workflows/scoop.yml'
       - 'windows/scoop/**'
 jobs:
   vscode:
     name: Install Scoop and packages
-    runs-on: windows-latest
+    runs-on: windows-2022
     steps:
       - name: Checkout sources
         uses: actions/checkout@v2
@@ -15,6 +16,22 @@ jobs:
         shell: powershell
         run: iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/bn-digital/home/latest/windows/scoop/import.ps1'))
 
-      - name: Verify install
+      - name: Add scoop to path
         shell: powershell
-        run: scoop info nodejs
+        run: echo "##[add-path]C:\bin\shims"
+
+      - name: Verify scoop setup
+        shell: powershell
+        run: |
+          scoop bucket list
+          scoop list
+
+      - name: Verify toolkit setup
+        shell: powershell
+        run: |
+          npm --version
+          node --version
+          kubectl version
+          helm version
+          skaffold version
+          doctl version
