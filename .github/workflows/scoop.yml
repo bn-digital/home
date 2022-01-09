@@ -1,4 +1,4 @@
-name: Chocolatey
+name: Scoop
 on:
   push:
     paths:
@@ -8,6 +8,8 @@ jobs:
   vscode:
     name: Install Scoop and packages
     runs-on: windows-2022
+    env:
+      PATH: 'C:\bin\shims;${{ env.PATH }}'
     steps:
       - name: Checkout sources
         uses: actions/checkout@v2
@@ -15,10 +17,6 @@ jobs:
       - name: Install packages
         shell: powershell
         run: iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/bn-digital/home/latest/windows/scoop/import.ps1'))
-
-      - name: Add scoop to path
-        shell: powershell
-        run: echo "##[add-path]C:\bin\shims"
 
       - name: Verify scoop setup
         shell: powershell
