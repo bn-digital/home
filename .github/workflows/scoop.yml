@@ -14,13 +14,8 @@ jobs:
 
       - name: Install packages
         shell: powershell
-        run: iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/bn-digital/home/latest/windows/scoop/import.ps1'))
-
-      - name: Test setup
-        shell: powershell
         run: |
-          $env:Path="C:\bin\shims;$env:Path"
-          [Environment]::SetEnvironmentVariable('Path', $env:Path, 'User')
+          iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/bn-digital/home/latest/windows/scoop/import.ps1'))
           scoop bucket list
           scoop list
           npm --version
