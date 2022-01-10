@@ -18,9 +18,9 @@ jobs:
 
       - name: Test setup
         shell: powershell
-        env:
-          PATH: 'C:\bin\shims'
         run: |
+          $env:Path="C:\bin\shims;$env:Path"
+          [Environment]::SetEnvironmentVariable('Path', $env:Path, 'User')
           scoop bucket list
           scoop list
           npm --version
