@@ -8,8 +8,6 @@ jobs:
   vscode:
     name: Install Scoop and packages
     runs-on: windows-2022
-    env:
-      PATH: 'C:\bin\shims;${{ env.PATH }}'
     steps:
       - name: Checkout sources
         uses: actions/checkout@v2
@@ -18,15 +16,13 @@ jobs:
         shell: powershell
         run: iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/bn-digital/home/latest/windows/scoop/import.ps1'))
 
-      - name: Verify scoop setup
+      - name: Test setup
         shell: powershell
+        env:
+          PATH: 'C:\bin\shims'
         run: |
           scoop bucket list
           scoop list
-
-      - name: Verify toolkit setup
-        shell: powershell
-        run: |
           npm --version
           node --version
           kubectl version
