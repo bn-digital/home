@@ -5,4 +5,3 @@
 ## Hello world!!
 
 - Kulyk Andrii verification of GPG key
-- 
