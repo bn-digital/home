@@ -60,4 +60,3 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 - [ ] aws-sam-cli
 - [ ] bind
 - [ ] kops
-- [ ] 
