@@ -42,3 +42,5 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 - [ ] docker
 - [ ] terraform
 - [ ] vault
+- [ ] aws
+- [ ] aws-amplify
