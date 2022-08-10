@@ -21,7 +21,10 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 - [ ] Python 3.10
 - [ ] PHP 8.1
 - [ ] JDK 17
-
+- [ ] Go 1.18
+- [ ] Less 590
+- [ ] Scala 2.13.7
+ 
 ##### Development tools
 - [ ] Jetbrains Toolbox
 - [ ] Insomnia
@@ -31,6 +34,16 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 - [ ] gh
 - [ ] pwsh
 - [ ] busybox
+- [ ] Composer
+- [ ] curl
+- [ ] dotnet-sdk
+- [ ] insomnia
+- [ ] lens
+- [ ] make
+- [ ] mysql
+- [ ] ngrok
+- [ ] openjdk
+- [ ] sed
 
 ##### Operations tools
 - [ ] kubectl
@@ -44,3 +57,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 - [ ] vault
 - [ ] aws
 - [ ] aws-amplify
+- [ ] aws-sam-cli
+- [ ] bind
+- [ ] kops
+- [ ] 
