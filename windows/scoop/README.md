@@ -37,7 +37,6 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 - [ ] Composer
 - [ ] curl
 - [ ] dotnet-sdk
-- [ ] insomnia
 - [ ] lens
 - [ ] make
 - [ ] mysql
