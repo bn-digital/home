@@ -1,5 +1,0 @@
-{
- "version": "1.0",
-  "url": "https://github.com/bn-digital/home/new/latest/windows/scoop",
-  "depends": ["nodejs18.2.0", "nodejs17.3", "nodejs16.14.2", "nodejs14.19.1", "python3.10.1", "php8.1.0", "openjdk17.0.2-8", "g01.18", "less590", "scala2.13.7"]
-}
