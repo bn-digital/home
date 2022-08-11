@@ -22,7 +22,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 - [ ] NodeJS 14.19.1
 - [ ] Python 3.10.1
 - [ ] PHP 8.1
-- [ ] JDK 17
+- [ ] JDK 17.0.2-8
 - [ ] Go 1.18
 - [ ] Less 590
 - [ ] Scala 2.13.7
