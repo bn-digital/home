@@ -8,19 +8,17 @@ jobs:
   vscode:
     name: Install Scoop and packages
     runs-on: windows-2022
+    strategy:
+      matrix:
+        bundle: ['bn-dev', 'bn-ops', 'bn-common']
     steps:
       - name: Checkout sources
         uses: actions/checkout@v2
 
       - name: Install packages
         shell: powershell
+        working-directory: windows/scoop
         run: |
-          iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/bn-digital/home/latest/windows/scoop/import.ps1'))
+          .\import.ps1 ${{ matrix.bundle }}
           scoop bucket list
           scoop list
-          npm --version
-          node --version
-          kubectl version
-          helm version
-          skaffold version
-          doctl version
