@@ -16,8 +16,10 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 
 ##### Language runtimes
 
+- [ ] NodeJS 18.2.0
 - [ ] NodeJS 17.3
-- [ ] NodeJS 16.13
+- [ ] NodeJS 16.14.2
+- [ ] NodeJS 14.19.1
 - [ ] Python 3.10
 - [ ] PHP 8.1
 - [ ] JDK 17
