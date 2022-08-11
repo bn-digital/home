@@ -4,6 +4,9 @@ on:
     paths:
       - '.github/workflows/scoop.yml'
       - 'windows/scoop/**'
+env:
+  SCOOP: "C:\bin"
+  
 jobs:
   vscode:
     name: Install Scoop and packages
