@@ -42,7 +42,6 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 - [ ] lens
 - [ ] make
 - [ ] mysql
-- [ ] openjdk
 - [ ] sed
 
 ##### Operations tools
