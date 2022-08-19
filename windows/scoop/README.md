@@ -16,12 +16,17 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 
 ##### Language runtimes
 
+- [ ] NodeJS 18.2.0
 - [ ] NodeJS 17.3
-- [ ] NodeJS 16.13
-- [ ] Python 3.10
+- [ ] NodeJS 16.14.2
+- [ ] NodeJS 14.19.1
+- [ ] Python 3.10.1
 - [ ] PHP 8.1
-- [ ] JDK 17
-
+- [ ] JDK 17.0.2-8
+- [ ] Go 1.18
+- [ ] Less 590
+- [ ] Scala 2.13.7
+ 
 ##### Development tools
 - [ ] Jetbrains Toolbox
 - [ ] Insomnia
@@ -31,6 +36,13 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 - [ ] gh
 - [ ] pwsh
 - [ ] busybox
+- [ ] Composer
+- [ ] curl
+- [ ] dotnet-sdk
+- [ ] lens
+- [ ] make
+- [ ] mysql
+- [ ] sed
 
 ##### Operations tools
 - [ ] kubectl
@@ -42,3 +54,8 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 - [ ] docker
 - [ ] terraform
 - [ ] vault
+- [ ] aws
+- [ ] aws-amplify
+- [ ] aws-sam-cli
+- [ ] bind
+- [ ] kops
