@@ -29,7 +29,7 @@ jobs:
 
       - name: Install packages
         env:
-          PATH: 'C:\bin\shims'
+          PATH: '${{ env.PATH }};C:\bin\shims'
         run: |
           .\bin\import.ps1 ${{ matrix.bundle }}
           scoop bucket list
