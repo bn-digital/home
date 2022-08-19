@@ -39,7 +39,7 @@ jobs:
 
   publish:
     name: App Manifests
-    needs: [install]
+    needs: [verify]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout sources
