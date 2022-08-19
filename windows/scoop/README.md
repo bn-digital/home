@@ -9,7 +9,7 @@ More on [Github page](https://github.com/ScoopInstaller/Scoop)
 To install Scoop, open Windows `PowerShell` and execute following script
 
 ```powershell
-iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
+iex "& {$(irm get.scoop.sh)}"
 ```
 
 #### Bundles
