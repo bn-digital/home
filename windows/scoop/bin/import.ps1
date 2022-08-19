@@ -8,4 +8,4 @@ scoop bucket add nonportable
 scoop bucket add versions
 
 $bundle = $args[0]
-scoop install https://raw.githubusercontent.com/bn-digital/home/latest/windows/scoop/$bundle.json
+scoop install https://raw.githubusercontent.com/bn-digital/home/latest/windows/scoop/apps/$bundle.json
