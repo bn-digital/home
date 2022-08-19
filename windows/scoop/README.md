@@ -12,6 +12,18 @@ To install Scoop, open Windows `PowerShell` and execute following script
 iex "& {$(irm get.scoop.sh)}"
 ```
 
+## Buckets
+
+In Scoop, buckets are collections of apps. Or, to be more specific, a bucket is a Git repository containing JSON app manifests which describe how to install an app.
+
+```powershell
+scoop bucket add extras
+scoop bucket add java
+scoop bucket add php
+scoop bucket add nonportable
+scoop bucket add versions
+```
+
 #### Bundles
 
 To install app bundle, open Windows `PowerShell` and execute following scripts for each required bundle
