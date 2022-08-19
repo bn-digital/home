@@ -14,8 +14,8 @@ defaults:
     working-directory: windows/scoop
 
 jobs:
-  vscode:
-    name: Install Scoop and packages
+  scoop:
+    name: Install App Bundle
     runs-on: windows-latest
     strategy:
       matrix:
@@ -28,9 +28,8 @@ jobs:
         run: iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 
       - name: Install packages
-        env:
-          PATH: '${{ env.PATH }};C:\bin\shims'
-        run: |
-          .\bin\import.ps1 ${{ matrix.bundle }}
-          scoop bucket list
-          scoop list
+        run: .\bin\import.ps1 ${{ matrix.bundle }}
+
+      - name: Get list of apps
+        run: scoop list
+
