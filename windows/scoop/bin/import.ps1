@@ -3,7 +3,6 @@ scoop install git
 scoop bucket add extras
 scoop bucket add java
 scoop bucket add php
-scoop bucket add main
 scoop bucket add nonportable
 scoop bucket add versions
 
