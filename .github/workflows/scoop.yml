@@ -27,6 +27,9 @@ jobs:
       - name: Install Scoop
         run: iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 
+      - name: Add shims to path
+        run: echo "##[add-path]c\bin\shims"
+
       - name: Install packages
         run: .\bin\import.ps1 ${{ matrix.bundle }}
 
