@@ -1,4 +1,4 @@
-name: Scoop
+name: App Bundles
 on:
   push:
     paths:
@@ -10,13 +10,14 @@ env:
 
 defaults:
   run:
-    shell: powershell
     working-directory: windows/scoop
 
 jobs:
   scoop:
-    name: Install App Bundle
     runs-on: windows-latest
+    defaults:
+      run:
+        shell: powershell
     strategy:
       matrix:
         bundle: ['bn-dev', 'bn-ops', 'bn-common']
@@ -33,8 +34,29 @@ jobs:
       - name: Install packages
         run: .\bin\import.ps1 ${{ matrix.bundle }}
 
-
       - name: Get list of apps
         run: scoop list
+
+  vault:
+    needs: [scoop]
+    uses: bn-digital/vault/.github/workflows/import-secrets.yml@latest
+    secrets: inherit
+
+  s3:
+    needs: [vault]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v3
+
+      - name: Upload S3
+        uses: betahuhn/do-spaces-action@v2
+        with:
+          access_key: ${{ secrets.SPACES_ACCESS_KEY_ID }}
+          secret_key: ${{ secrets.SPACES_SECRET_ACCESS_KEY }}
+          space_name: bn-digital
+          space_region: fra1
+          source: apps
+          out_dir: scoop/apps
 
 
