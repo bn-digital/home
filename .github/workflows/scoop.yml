@@ -1,6 +1,8 @@
 name: App Bundles
 on:
   push:
+    branches:
+      - latest
     paths:
       - '.github/workflows/scoop.yml'
       - 'windows/scoop/**'

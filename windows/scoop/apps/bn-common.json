@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "homepage": "https://github.com/bn-digital/home",
-  "url": "https://raw.githubusercontent.com/bn-digital/home/latest/windows/scoop/apps/bn-common.json",
+  "url": "https://cloud.bndigital.dev/scoop/apps/bn-common.json",
   "description": "BN Digital Common App Bundle",
   "depends": [
     "7zip",
