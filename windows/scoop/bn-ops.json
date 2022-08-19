@@ -1,6 +1,0 @@
-{
-  "version": "1.0",
-  "url": "https://github.com/bn-digital/home/new/latest/windows/scoop",
-  "depends": ["kubectl1.23.5", "helm3.8.1", "helmfile0.143.5", "skaffold1.39.1", "doctl", "doctl1.72.0", "minikube1.24.0","terraform1.1.0",
-             "vault1.9.1", "aws2.5.0", "aws-amplify7.6.26", "aws-sam-cli1.43.0", "bind9.16.27", "kops1.23.0"]
-}

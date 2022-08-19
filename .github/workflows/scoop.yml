@@ -4,27 +4,33 @@ on:
     paths:
       - '.github/workflows/scoop.yml'
       - 'windows/scoop/**'
+
 env:
-  SCOOP: "C:\bin"
-  
+  SCOOP: 'C:\bin'
+
+defaults:
+  run:
+    shell: powershell
+    working-directory: windows/scoop
+
 jobs:
   vscode:
     name: Install Scoop and packages
-    runs-on: windows-2022
+    runs-on: windows-latest
     strategy:
       matrix:
         bundle: ['bn-dev', 'bn-ops', 'bn-common']
     steps:
       - name: Checkout sources
-        uses: actions/checkout@v2
-        
+        uses: actions/checkout@v3
+
       - name: Install Scoop
         run: iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 
       - name: Install packages
-        shell: powershell
-        working-directory: windows/scoop
+        env:
+          PATH: 'C:\bin\shims'
         run: |
-          .\import.ps1 ${{ matrix.bundle }}
+          .\bin\import.ps1 ${{ matrix.bundle }}
           scoop bucket list
           scoop list

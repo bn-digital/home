@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/bn-digital/home",
+  "url": "https://raw.githubusercontent.com/bn-digital/home/latest/windows/scoop/apps/bn-common.json",
+  "description": "BN Digital Common App Bundle",
+  "depends": [
+    "7zip",
+    "bind",
+    "busybox",
+    "curl",
+    "dotnet-sdk",
+    "gh",
+    "git",
+    "go",
+    "lens",
+    "make",
+    "multipass",
+    "mysql",
+    "nodejs",
+    "nodejs-lts",
+    "openjdk",
+    "openssl",
+    "php",
+    "postgresql",
+    "pwsh",
+    "pytho",
+    "scala",
+    "vscode"
+  ]
+}
