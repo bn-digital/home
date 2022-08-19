@@ -49,7 +49,7 @@ jobs:
         uses: hashicorp/vault-action@v2.4.0
         with:
           method: github
-          url: ${{ secrets.VAULT_ENDPOINT }}
+          url: ${{ secrets.VAULT_PUBLIC_URL }}
           githubToken: ${{ secrets.BN_GITHUB_TOKEN }}
           secrets: |
             infrastructure/data/spaces            access-key-id         | S3_ACCESS_KEY_ID           ;
