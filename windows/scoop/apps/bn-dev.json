@@ -7,12 +7,5 @@
   "env_set": {
     "NODE_ENV": "development"
   },
-  "depends": [
-    "composer",
-    "figma",
-    "insomnia",
-    "jetbrains-toolbox",
-    "mkcert",
-    "ngrok"
-  ]
+  "depends": ["figma", "insomnia", "jetbrains-toolbox", "mkcert", "ngrok"]
 }

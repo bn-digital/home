@@ -1,61 +1,80 @@
-## Scoop
+# Scoop
 
 Scoop is Windows package manager, inspired by ubuntu apt, macos brew utilities.
 
 More on [Github page](https://github.com/ScoopInstaller/Scoop)
 
-### Setup
+## Setup
 
 To install Scoop, open Windows `PowerShell` and execute following script
 
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/bn-digital/home/latest/windows/scoop/import.ps1'))
+iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 ```
 
-#### Applications
+#### Bundles
 
-##### Language runtimes
+To install app bundle, open Windows `PowerShell` and execute following scripts for each required bundle
 
-- [ ] NodeJS 18.2.0
-- [ ] NodeJS 17.3
-- [ ] NodeJS 16.14.2
-- [ ] NodeJS 14.19.1
-- [ ] Python 3.10.1
-- [ ] PHP 8.1
-- [ ] JDK 17.0.2-8
-- [ ] Go 1.18
-- [ ] Less 590
-- [ ] Scala 2.13.7
- 
-##### Development tools
-- [ ] Jetbrains Toolbox
-- [ ] Insomnia
-- [ ] VS Code
-- [ ] PostgreSQL 14
-- [ ] ngrok
-- [ ] gh
-- [ ] pwsh
-- [ ] busybox
-- [ ] Composer
-- [ ] curl
-- [ ] dotnet-sdk
-- [ ] lens
-- [ ] make
-- [ ] mysql
-- [ ] sed
+##### Common
 
-##### Operations tools
-- [ ] kubectl
-- [ ] helm
-- [ ] helmfile
-- [ ] skaffold
-- [ ] doctl
-- [ ] minikube
-- [ ] docker
-- [ ] terraform
-- [ ] vault
-- [ ] aws
-- [ ] aws-amplify
-- [ ] aws-sam-cli
-- [ ] bind
-- [ ] kops
+```powershell
+scoop install https://cloud.bndigital.dev/scoop/apps/bn-common.json
+```
+
+- 7zip
+- bind
+- busybox
+- curl
+- dotnet-sdk
+- gh
+- git
+- go
+- lens
+- make
+- multipass
+- mysql
+- nodejs
+- nodejs-lts
+- openjdk
+- openssl
+- php
+- postgresql
+- pwsh
+- python
+- scala
+- vscode
+
+##### Development
+
+```powershell
+scoop install https://cloud.bndigital.dev/scoop/apps/bn-dev.json
+```
+
+- figma
+- insomnia
+- jetbrains-toolbox
+- mkcert
+- ngrok
+
+##### Operations
+
+```powershell
+scoop install https://cloud.bndigital.dev/scoop/apps/bn-ops.json
+```
+
+- aws
+- cosign
+- docker-compose
+- doctl
+- hadolint
+- helm
+- helmfile
+- kops
+- kubectl
+- lens
+- minikube
+- pulumi
+- skaffold
+- terraform
+- vault
