@@ -8,7 +8,7 @@ More on [Github page](https://github.com/ScoopInstaller/Scoop)
 
 To install Scoop, open Windows `PowerShell` and execute following script
 
-```powershell
+```bash
 iex "& {$(irm get.scoop.sh)}"
 ```
 
