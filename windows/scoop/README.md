@@ -34,8 +34,8 @@ To install app bundle, open Windows `PowerShell` and execute following scripts f
 scoop install https://cloud.bndigital.dev/scoop/apps/bn-common.json
 ```
 
-- 7zip
-- bind
+- 7zip -is a free and open-source file archiver, a utility used to place groups of files within compressed containers known as "archives".
+- bind -The bind() method creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.
 - busybox
 - curl
 - dotnet-sdk
