@@ -34,10 +34,10 @@ To install app bundle, open Windows `PowerShell` and execute following scripts f
 scoop install https://cloud.bndigital.dev/scoop/apps/bn-common.json
 ```
 
-- 7zip - is a free and open-source file archiver, a utility used to place groups of files within compressed containers known as "archives".
+- [**7zip**](https://www.7-zip.org/) - is a free and open-source file archiver, a utility used to place groups of files within compressed containers known as "archives".
 - [**bind**](https://downloads.isc.org/isc/bind9/9.18.6/doc/arm/html/) - Versatile, classic, complete name server software.
-- busybox - a set of UNIX command line utilities used as the main interface in embedded operating systems. (https://github.com/mirror/busybox_
-- curl - cURL is a utility for organizing the collection of data from the web, which allows the flexible formatting of the request from such parameters as cookie, user_agent, referrer and any other headers. (https://github.com/curl/curl)
+- [**busybox**](https://busybox.net/) - a set of UNIX command line utilities used as the main interface in embedded operating systems.
+- [**curl**](https://curl.se/download.html) - cURL is a utility for organizing the collection of data from the web, which allows the flexible formatting of the request from such parameters as cookie, user_agent, referrer and any other headers. 
 - dotnet-sdk - is a set of libraries and tools that developers can use to create .NET applications and libraries. It contains the following components which are used to build and run applications. (https://github.com/dotnet/installer)
 - gh - GitHub CLI, or gh, is a command-line interface to GitHub for use in your terminal or your scripts. (https://github.com/cli/cli)
 - git - version control system used by developers to control changes in their developments and projects. (https://github.com/git/git)
