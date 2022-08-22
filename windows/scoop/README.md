@@ -35,7 +35,7 @@ scoop install https://cloud.bndigital.dev/scoop/apps/bn-common.json
 ```
 
 - 7zip - is a free and open-source file archiver, a utility used to place groups of files within compressed containers known as "archives".
-- bind - The bind() method creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called. (https://github.com/remy/bind.js)
+- [**bind**](https://downloads.isc.org/isc/bind9/9.18.6/doc/arm/html/) - Versatile, classic, complete name server software.
 - busybox - a set of UNIX command line utilities used as the main interface in embedded operating systems. (https://github.com/mirror/busybox_
 - curl - cURL is a utility for organizing the collection of data from the web, which allows the flexible formatting of the request from such parameters as cookie, user_agent, referrer and any other headers. (https://github.com/curl/curl)
 - dotnet-sdk - is a set of libraries and tools that developers can use to create .NET applications and libraries. It contains the following components which are used to build and run applications. (https://github.com/dotnet/installer)
