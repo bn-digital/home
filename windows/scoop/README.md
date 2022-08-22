@@ -34,11 +34,11 @@ To install app bundle, open Windows `PowerShell` and execute following scripts f
 scoop install https://cloud.bndigital.dev/scoop/apps/bn-common.json
 ```
 
-- 7zip -is a free and open-source file archiver, a utility used to place groups of files within compressed containers known as "archives".
-- bind -The bind() method creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.
-- busybox
-- curl
-- dotnet-sdk
+- 7zip - is a free and open-source file archiver, a utility used to place groups of files within compressed containers known as "archives".
+- bind - The bind() method creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.
+- busybox - a set of UNIX command line utilities used as the main interface in embedded operating systems.
+- curl - cURL is a utility for organizing the collection of data from the web, which allows the flexible formatting of the request from such parameters as cookie, user_agent, referrer and any other headers.
+- dotnet-sdk - is a set of libraries and tools that developers can use to create .NET applications and libraries. It contains the following components which are used to build and run applications.
 - gh
 - git
 - go
