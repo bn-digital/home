@@ -38,15 +38,15 @@ scoop install https://cloud.bndigital.dev/scoop/apps/bn-common.json
 - [**bind**](https://downloads.isc.org/isc/bind9/9.18.6/doc/arm/html/) - Versatile, classic, complete name server software.
 - [**busybox**](https://busybox.net/) - a set of UNIX command line utilities used as the main interface in embedded operating systems.
 - [**curl**](https://curl.se/download.html) - cURL is a utility for organizing the collection of data from the web, which allows the flexible formatting of the request from such parameters as cookie, user_agent, referrer and any other headers. 
-- dotnet-sdk - is a set of libraries and tools that developers can use to create .NET applications and libraries. It contains the following components which are used to build and run applications. (https://github.com/dotnet/installer)
-- gh - GitHub CLI, or gh, is a command-line interface to GitHub for use in your terminal or your scripts. (https://github.com/cli/cli)
-- git - version control system used by developers to control changes in their developments and projects. (https://github.com/git/git)
-- go - is an open source programming language supported by Google. (https://github.com/golang/go)
-- lens -  free open source application that is positioned as a full-fledged Kubernetes IDE. (https://k8slens.dev/)
-- make - utility designed to automate the conversion of files from one form to another.
-- multipass - lightweight VM manager for Linux, Windows and macOS. It's designed for developers who want a fresh Ubuntu environment with a single command. It uses KVM on Linux, Hyper-V on Windows and HyperKit on macOS to run the VM with minimal overhead. It can also use VirtualBox on Windows and macOS. Multipass will fetch images for you and keep them up to date.(https://github.com/canonical/multipass)
-- mysql - is an open-source relational database management system (RDBMS). (https://github.com/mysql)
-- nodejs - is an open-source, cross-platform, JavaScript runtime environment. (https://github.com/nodejs/node)
+- [**dotnet-sdk**](https://dotnet.microsoft.com/en-us/download) - is a set of libraries and tools that developers can use to create .NET applications and libraries. It contains the following components which are used to build and run applications. 
+- [**gh**](https://github.com/cli/cli) - GitHub CLI, or gh, is a command-line interface to GitHub for use in your terminal or your scripts. 
+- [**git**](https://github.com/git/git) - version control system used by developers to control changes in their developments and projects. 
+- [**go**](https://go.dev/dl/) - is an open source programming language supported by Google. 
+- [**lens**]((https://k8slens.dev/) -  free open source application that is positioned as a full-fledged Kubernetes IDE. 
+- [**make**](http://gnuwin32.sourceforge.net/packages/make.htm) - utility designed to automate the conversion of files from one form to another.
+- [**multipass**](https://multipass.run/docs/installing-on-windows) - lightweight VM manager for Linux, Windows and macOS. It's designed for developers who want a fresh Ubuntu environment with a single command. It uses KVM on Linux, Hyper-V on Windows and HyperKit on macOS to run the VM with minimal overhead. It can also use VirtualBox on Windows and macOS. Multipass will fetch images for you and keep them up to date.
+- [**mysql**](https://www.mysql.com/downloads/) - is an open-source relational database management system (RDBMS). 
+- [**nodejs**] - is an open-source, cross-platform, JavaScript runtime environment. 
 - nodejs-lts - Long Term Support (LTS) Node. (https://github.com/nodejs/node)
 - openjdk - The place to collaborate on an open-source implementation of the Java Platform, Standard Edition, and related projects.
 - openssl - https://github.com/openjdk/
