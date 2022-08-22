@@ -5,8 +5,13 @@ on:
       - latest
     paths:
       - '.github/workflows/scoop.yml'
-      - 'windows/scoop/**'
+      - 'windows/scoop/apps/**'
+      - 'windows/scoop/bin/**'
 
+concurrency: 
+  group: scoop
+  cancel-in-progress: true
+  
 env:
   SCOOP: 'C:\bin'
 
