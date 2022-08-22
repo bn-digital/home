@@ -63,11 +63,11 @@ scoop install https://cloud.bndigital.dev/scoop/apps/bn-common.json
 scoop install https://cloud.bndigital.dev/scoop/apps/bn-dev.json
 ```
 
-- figma - 
-- insomnia - 
+- figma - is a collaborative browser-based interface design tool, with additional offline features enabled by desktop applications for macOS and Windows. (https://github.com/figma)
+- insomnia - is an open-source, cross-platform API client for GraphQL, REST, and gRPC. (https://github.com/Kong/insomnia)
 - jetbrains-toolbox - 
-- mkcert - 
-- ngrok - 
+- mkcert - s a simple tool for making locally-trusted development certificates. It requires no configuration. (https://github.com/FiloSottile/mkcert)
+- ngrok -  is the programmable network edge that adds connectivity,security, and observability to your apps with no code changes.(https://github.com/inconshreveable/ngrok)
 
 ##### Operations
 
@@ -75,17 +75,17 @@ scoop install https://cloud.bndigital.dev/scoop/apps/bn-dev.json
 scoop install https://cloud.bndigital.dev/scoop/apps/bn-ops.json
 ```
 
-- aws - 
-- cosign - 
-- docker-compose - 
-- doctl - 
-- hadolint - 
-- helm - 
-- helmfile - 
-- kops - 
-- kubectl- 
-- minikube - 
-- pulumi - 
-- skaffold - 
-- terraform - 
-- vault - 
+- aws - is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. These cloud computing web services provide distributed computing processing capacity and software tools via AWS server farms. (https://github.com/aws)
+- cosign - aims to make signatures invisible infrastructure. (https://github.com/sigstore/cosign)
+- docker-compose - s a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration. (https://github.com/docker/compose)
+- doctl - is an American cloud infrastructure provider headquartered in New York City with data centers worldwide. DigitalOcean provides developers, startups, and SMBs with cloud infrastructure-as-a-service platforms. (https://github.com/digitalocean/doctl)
+- hadolint - A smarter Dockerfile linter that helps you build best practice Docker images. The linter parses the Dockerfile into an AST and performs rules on top of the AST. It stands on the shoulders of ShellCheck to lint the Bash code inside RUN instructions.(https://github.com/hadolint/hadolint)
+- helm - The package manager for Kubernetes. (https://github.com/helm/helm)
+- helmfile - is a declarative spec for deploying helm charts. (https://github.com/roboll/helmfile)
+- kops - kops will not only help you create, destroy, upgrade and maintain production-grade, highly available, Kubernetes cluster, but it will also provision the necessary cloud infrastructure.AWS (Amazon Web Services) is currently officially supported, with DigitalOcean, GCE, and OpenStack in beta support, and Azure and AliCloud in alpha.(https://github.com/kubernetes/kops)
+- kubectl- The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs. For more information including a complete list of kubectl operations, see the kubectl reference documentation.(https://github.com/kubernetes/kubectl)
+- minikube - is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes. (https://github.com/kubernetes/minikube)
+- pulumi - is the easiest way to create and deploy cloud software that use containers, serverless functions, hosted services, and infrastructure, on any cloud. (https://github.com/pulumi/pulumi)
+- skaffold - handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code. (https://github.com/GoogleContainerTools/skaffold)
+- terraform - codifies cloud APIs into declarative configuration files. (https://github.com/hashicorp/terraform)
+- vault - Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API. (https://github.com/hashicorp/vault)
