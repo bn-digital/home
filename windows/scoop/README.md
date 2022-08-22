@@ -41,7 +41,7 @@ scoop install https://cloud.bndigital.dev/scoop/apps/bn-common.json
 - dotnet-sdk - is a set of libraries and tools that developers can use to create .NET applications and libraries. It contains the following components which are used to build and run applications.
 - gh
 - git - version control system used by developers to control changes in their developments and projects.
-- go - is an open source programming language supported by Google.
+- go - is an open source programming language supported by Google. [https://github.com/golang/go]
 - lens -  free open source application that is positioned as a full-fledged Kubernetes IDE.
 - make
 - multipass
