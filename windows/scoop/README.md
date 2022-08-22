@@ -40,9 +40,9 @@ scoop install https://cloud.bndigital.dev/scoop/apps/bn-common.json
 - curl - cURL is a utility for organizing the collection of data from the web, which allows the flexible formatting of the request from such parameters as cookie, user_agent, referrer and any other headers.
 - dotnet-sdk - is a set of libraries and tools that developers can use to create .NET applications and libraries. It contains the following components which are used to build and run applications.
 - gh
-- git
-- go
-- lens
+- git - version control system used by developers to control changes in their developments and projects.
+- go - is an open source programming language supported by Google.
+- lens -  free open source application that is positioned as a full-fledged Kubernetes IDE.
 - make
 - multipass
 - mysql
